@@ -55,6 +55,7 @@ for i in range(num):
     y = float(input("What is the y value of co-ordinate "  + str(i) + "? "))
     coords.append(Coordinate(x,y))
 
+#User input (via shell)
 clusters = []
 num = int(input("How many clusters are there?"))
 for i in range(num):
